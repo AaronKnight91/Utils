@@ -2,6 +2,12 @@
 
 # Run all back up scripts
 
-source ./backup_pictures.sh
-source ./backup_music.sh
-source ./backup_videos.sh
+echo
+echo "Backing up Photos"
+source /home/aaron/Software/utils/backup_pictures.sh
+echo
+echo "Backing up Music"
+source /home/aaron/Software/utils/backup_music.sh
+echo
+echo "Backing up Videos"
+source /home/aaron/Software/utils./backup_videos.sh
