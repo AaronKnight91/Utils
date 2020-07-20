@@ -39,7 +39,7 @@ echo "Removing backups older than 28 days"
 find $dest/*pictures_backup.tar.gz -mtime +28 -delete
 
 # Create archive filename
-day=$(date +%Y%m%d%H%M)
+day=$(date +%Y%m%d_%H%M)
 #hostname=$(hostname -s)
 archive_file=$day"_pictures_backup.tar.gz"
 
