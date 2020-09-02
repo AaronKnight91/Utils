@@ -34,8 +34,8 @@ else
     mkdir -p $dest
 fi
 
-# Deleting any backup older than 28 days
-echo "Removing backups older than 28 days"
+# Deleting any backup older than 14 days
+echo "Removing backups older than 14 days"
 find $dest/*videos_backup.tar.gz -mtime +14 -delete
 
 # Create archive filename
